@@ -1,0 +1,6 @@
+com.mit.timie.generators.ConfigGenerator
+com.mit.timie.generators.SubjectGenerator
+com.mit.timie.generators.FacultyGenerator
+com.mit.timie.generators.RoomGenerator
+com.mit.timie.generators.ClassSectionGenerator
+com.mit.timie.generators.TimetableTestGenerator
