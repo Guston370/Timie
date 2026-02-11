@@ -325,33 +325,33 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Implement lockAssignment(Assignment) method
     - _Requirements: 11.3, 11.4, 11.5, 11.6, 15.2, 15.6_
 
-- [ ] 12. Write property tests for validation
-  - [ ] 12.1 Write property test for Configuration Validation
+- [x] 12. Write property tests for validation
+  - [x] 12.1 Write property test for Configuration Validation
     - **Property 9: Configuration Validation**
     - Generate random configs with break periods, verify at least one teaching period per day
     - Tag: // Feature: timetable-generator, Property 9: Configuration Validation
     - **Validates: Requirements 1.7**
   
-  - [ ]* 12.2 Write property test for Subject Data Validation
+  - [x] 12.2 Write property test for Subject Data Validation
     - **Property 10: Subject Data Validation**
     - Generate random incomplete subjects, verify validation rejects them
     - Tag: // Feature: timetable-generator, Property 10: Subject Data Validation
     - **Validates: Requirements 2.8**
   
-  - [ ]* 12.3 Write property test for Faculty Data Validation
+  - [x] 12.3 Write property test for Faculty Data Validation
     - **Property 11: Faculty Data Validation**
     - Generate random incomplete faculty, verify validation rejects them
     - Tag: // Feature: timetable-generator, Property 11: Faculty Data Validation
     - **Validates: Requirements 3.7**
 
-- [ ] 13. Implement setup wizard UI
-  - [ ] 13.1 Create activity_setup_wizard.xml layout
+- [x] 13. Implement setup wizard UI
+  - [x] 13.1 Create activity_setup_wizard.xml layout
     - Add EditText fields for working days, day names, periods per day, period duration
     - Add RecyclerView or input fields for break periods
     - Add "Next" button
     - _Requirements: 1.1, 17.1, 17.2_
   
-  - [ ] 13.2 Create SetupWizardActivity.java
+  - [x] 13.2 Create SetupWizardActivity.java
     - Extend AppCompatActivity
     - Initialize SetupViewModel
     - Bind UI elements using ViewBinding
@@ -362,14 +362,14 @@ The implementation uses Java for Android and includes both unit tests and proper
     - _Requirements: 1.1, 1.6, 1.7, 15.1, 17.2, 17.7_
 
 
-- [ ] 14. Implement subject input UI
-  - [ ] 14.1 Create activity_subject_input.xml layout
+- [x] 14. Implement subject input UI
+  - [x] 14.1 Create activity_subject_input.xml layout
     - Add RecyclerView for subject list
     - Add FloatingActionButton to add new subject
     - Add "Next" button to proceed
     - _Requirements: 2.1, 17.1, 17.3_
   
-  - [ ] 14.2 Create dialog_subject_input.xml layout
+  - [x] 14.2 Create dialog_subject_input.xml layout
     - Add EditText for subject name, weekly periods
     - Add Spinner for subject type (Theory/Lab)
     - Add Spinner for priority (High/Medium/Low)
@@ -377,12 +377,12 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Add "Save" and "Cancel" buttons
     - _Requirements: 2.2, 2.3, 2.4, 2.5, 2.6, 17.2_
   
-  - [ ] 14.3 Create SubjectAdapter.java (RecyclerView.Adapter)
+  - [x] 14.3 Create SubjectAdapter.java (RecyclerView.Adapter)
     - Display subject name, type, weekly periods, priority
     - Add edit and delete buttons for each item
     - _Requirements: 2.9, 17.3_
   
-  - [ ] 14.4 Create SubjectInputActivity.java
+  - [x] 14.4 Create SubjectInputActivity.java
     - Initialize SubjectViewModel
     - Set up RecyclerView with SubjectAdapter
     - Observe subject list LiveData

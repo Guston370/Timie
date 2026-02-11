@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Timie</string>
+    
+    <!-- Setup Wizard -->
+    <string name="setup_wizard_title">Setup Timetable Configuration</string>
+    <string name="working_days_hint">Number of working days (1-7)</string>
+    <string name="day_names_label">Day Names</string>
+    <string name="day_name_hint">Day %1$d name</string>
+    <string name="periods_per_day_hint">Periods per day (1-12)</string>
+    <string name="period_duration_hint">Period duration (minutes)</string>
+    <string name="break_periods_label">Break Periods</string>
+    <string name="break_periods_hint">Break period numbers (e.g., 4,8)</string>
+    <string name="next_button">Next</string>
+    
+    <!-- Subject Input -->
+    <string name="subject_input_title">Add Subjects</string>
+    <string name="subject_input_instruction">Add all subjects that need to be scheduled</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="add_subject_title">Add Subject</string>
+    <string name="edit_subject_title">Edit Subject</string>
+    <string name="subject_name_hint">Subject Name</string>
+    <string name="weekly_periods_hint">Weekly Periods (1-30)</string>
+    <string name="subject_type_label">Subject Type</string>
+    <string name="priority_label">Priority</string>
+    <string name="allow_repetition_label">Allow same-day repetition</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="edit_subject">Edit Subject</string>
+    <string name="delete_subject">Delete Subject</string>
+    <string name="no_subjects_message">No subjects added yet. Tap + to add a subject.</string>
+    <string name="validation_error_no_subjects">Please add at least one subject before proceeding</string>
 </resources>
