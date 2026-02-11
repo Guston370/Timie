@@ -310,10 +310,8 @@ public class SubjectInputActivity extends AppCompatActivity implements SubjectAd
      * Navigates to the Faculty Input Activity.
      */
     private void navigateToFacultyInput() {
-        // TODO: Navigate to FacultyInputActivity when it's implemented
-        Toast.makeText(this, "Proceeding to Faculty Input (not yet implemented)", Toast.LENGTH_SHORT).show();
-        // Intent intent = new Intent(this, FacultyInputActivity.class);
-        // startActivity(intent);
+        Intent intent = new Intent(this, FacultyInputActivity.class);
+        startActivity(intent);
     }
     
     @Override

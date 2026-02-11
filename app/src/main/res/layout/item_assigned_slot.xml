@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#F5F5F5"
+    android:layout_marginBottom="4dp">
+
+    <!-- Day and Period -->
+    <TextView
+        android:id="@+id/slotTimeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:text="Day 1, Period 1" />
+
+    <!-- Class and Section -->
+    <TextView
+        android:id="@+id/slotClassText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:text="Class A" />
+
+    <!-- Faculty -->
+    <TextView
+        android:id="@+id/slotFacultyText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:text="Faculty Name" />
+
+</LinearLayout>

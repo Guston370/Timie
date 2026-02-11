@@ -27,6 +27,36 @@
             android:name=".ui.SubjectInputActivity"
             android:exported="false" />
         
+        <!-- Faculty Input Activity -->
+        <activity
+            android:name=".ui.FacultyInputActivity"
+            android:exported="false" />
+        
+        <!-- Room Input Activity -->
+        <activity
+            android:name=".ui.RoomInputActivity"
+            android:exported="false" />
+        
+        <!-- Class Input Activity -->
+        <activity
+            android:name=".ui.ClassInputActivity"
+            android:exported="false" />
+        
+        <!-- Generation Activity -->
+        <activity
+            android:name=".ui.GenerationActivity"
+            android:exported="false" />
+        
+        <!-- Class Timetable Activity -->
+        <activity
+            android:name=".ui.ClassTimetableActivity"
+            android:exported="false" />
+        
+        <!-- Faculty Timetable Activity -->
+        <activity
+            android:name=".ui.FacultyTimetableActivity"
+            android:exported="false" />
+        
     </application>
 
 </manifest>

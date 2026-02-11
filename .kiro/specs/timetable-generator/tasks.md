@@ -391,14 +391,14 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Navigate to FacultyInputActivity on "Next"
     - _Requirements: 2.1, 2.8, 2.9, 15.1, 17.5_
 
-- [ ] 15. Implement faculty input UI
-  - [ ] 15.1 Create activity_faculty_input.xml layout
+- [x] 15. Implement faculty input UI
+  - [x] 15.1 Create activity_faculty_input.xml layout
     - Add RecyclerView for faculty list
     - Add FloatingActionButton to add new faculty
     - Add "Next" button
     - _Requirements: 3.1, 17.1, 17.3_
   
-  - [ ] 15.2 Create dialog_faculty_input.xml layout
+  - [x] 15.2 Create dialog_faculty_input.xml layout
     - Add EditText for faculty name, max periods per day
     - Add multi-select list for subjects they can teach
     - Add day-wise availability checkboxes
@@ -406,12 +406,12 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Add "Save" and "Cancel" buttons
     - _Requirements: 3.2, 3.3, 3.4, 3.5, 3.6, 17.2_
   
-  - [ ] 15.3 Create FacultyAdapter.java
+  - [x] 15.3 Create FacultyAdapter.java
     - Display faculty name, subjects, max periods
     - Add edit and delete buttons
     - _Requirements: 3.8, 17.3_
   
-  - [ ] 15.4 Create FacultyInputActivity.java
+  - [x] 15.4 Create FacultyInputActivity.java
     - Initialize FacultyViewModel
     - Set up RecyclerView with FacultyAdapter
     - Show dialog on FAB click
@@ -419,77 +419,77 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Navigate to RoomInputActivity on "Next"
     - _Requirements: 3.1, 3.7, 3.8, 15.1_
 
-- [ ] 16. Implement room input UI
-  - [ ] 16.1 Create activity_room_input.xml layout
+- [x] 16. Implement room input UI
+  - [x] 16.1 Create activity_room_input.xml layout
     - Add RecyclerView for room list
     - Add FloatingActionButton to add new room
     - Add "Next" button
     - _Requirements: 4.1, 17.1, 17.3_
   
-  - [ ] 16.2 Create dialog_room_input.xml layout
+  - [x] 16.2 Create dialog_room_input.xml layout
     - Add EditText for room name
     - Add Spinner for room type (Classroom/Lab)
     - Add day-wise and period-wise availability grid
     - Add "Save" and "Cancel" buttons
     - _Requirements: 4.2, 4.3, 4.4, 17.2_
   
-  - [ ] 16.3 Create RoomAdapter.java
+  - [x] 16.3 Create RoomAdapter.java
     - Display room name and type
     - Add edit and delete buttons
     - _Requirements: 4.6, 17.3_
   
-  - [ ] 16.4 Create RoomInputActivity.java
+  - [x] 16.4 Create RoomInputActivity.java
     - Initialize RoomViewModel
     - Set up RecyclerView with RoomAdapter
     - Show dialog on FAB click
     - Navigate to ClassInputActivity on "Next"
     - _Requirements: 4.1, 4.6, 15.1_
 
-- [ ] 17. Implement class and section input UI
-  - [ ] 17.1 Create activity_class_input.xml layout
+- [x] 17. Implement class and section input UI
+  - [x] 17.1 Create activity_class_input.xml layout
     - Add RecyclerView for class sections
     - Add FloatingActionButton to add new class
     - Add "Generate Timetable" button
     - _Requirements: 5.1, 17.1, 17.3_
   
-  - [ ] 17.2 Create dialog_class_input.xml layout
+  - [x] 17.2 Create dialog_class_input.xml layout
     - Add EditText for class name, section name, student strength
     - Add "Save" and "Cancel" buttons
     - _Requirements: 5.3, 5.4, 17.2_
   
-  - [ ] 17.3 Create ClassSectionAdapter.java
+  - [x] 17.3 Create ClassSectionAdapter.java
     - Display class name, section name, student strength
     - Add edit and delete buttons
     - _Requirements: 5.5, 17.3_
   
-  - [ ] 17.4 Create ClassInputActivity.java
+  - [x] 17.4 Create ClassInputActivity.java
     - Initialize ClassViewModel
     - Set up RecyclerView with ClassSectionAdapter
     - Show dialog on FAB click
     - Navigate to GenerationActivity on "Generate Timetable"
     - _Requirements: 5.1, 5.5, 15.1_
 
-- [ ] 18. Checkpoint - Test input flow
+- [x] 18. Checkpoint - Test input flow
   - Verify all input activities compile and run
   - Verify navigation flow works correctly
   - Verify data is saved to repositories
   - Ask the user if questions arise
 
 
-- [ ] 19. Implement timetable generation UI
-  - [ ] 19.1 Create activity_generation.xml layout
+- [x] 19. Implement timetable generation UI
+  - [x] 19.1 Create activity_generation.xml layout
     - Add ProgressBar for loading indicator
     - Add "Generate" button
     - Add RecyclerView to display generated variants
     - Add TextView for conflict messages
     - _Requirements: 7.10, 17.1, 17.6_
   
-  - [ ] 19.2 Create VariantsAdapter.java
+  - [x] 19.2 Create VariantsAdapter.java
     - Display variant name (Balanced, Compact, Faculty-friendly)
     - Add "View" button for each variant
     - _Requirements: 18.4, 18.5, 17.3_
   
-  - [ ] 19.3 Create GenerationActivity.java
+  - [x] 19.3 Create GenerationActivity.java
     - Initialize GenerationViewModel
     - Observe isGenerating LiveData to show/hide loading indicator
     - Observe timetables LiveData to display variants
@@ -498,51 +498,51 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Navigate to ClassTimetableActivity when variant is selected
     - _Requirements: 7.8, 7.9, 7.10, 15.1, 17.6_
   
-  - [ ] 19.4 Create conflict dialog layout and display logic
+  - [x] 19.4 Create conflict dialog layout and display logic
     - Show conflict details from ConflictReport
     - Display suggestions to resolve conflicts
     - _Requirements: 13.1, 13.2, 13.3, 13.5_
 
 - [ ] 20. Write property tests for generation and variants
-  - [ ]* 20.1 Write property test for Variant Generation Count
+  - [x] 20.1 Write property test for Variant Generation Count
     - **Property 12: Variant Generation Count**
     - Generate random valid configurations, verify three variants are produced
     - Tag: // Feature: timetable-generator, Property 12: Variant Generation Count
     - **Validates: Requirements 7.8**
   
-  - [ ]* 20.2 Write property test for Balanced Distribution
+  - [x] 20.2 Write property test for Balanced Distribution
     - **Property 13: Balanced Distribution**
     - Generate timetables with Balanced strategy, verify even distribution across days
     - Tag: // Feature: timetable-generator, Property 13: Balanced Distribution
     - **Validates: Requirements 18.1**
   
-  - [ ]* 20.3 Write property test for Compact Schedule
+  - [x] 20.3 Write property test for Compact Schedule
     - **Property 14: Compact Schedule**
     - Generate timetables with Compact strategy, verify minimized gaps
     - Tag: // Feature: timetable-generator, Property 14: Compact Schedule
     - **Validates: Requirements 18.2**
   
-  - [ ]* 20.4 Write property test for Faculty-Friendly Scheduling
+  - [x] 20.4 Write property test for Faculty-Friendly Scheduling
     - **Property 15: Faculty-Friendly Scheduling**
     - Generate timetables with Faculty-friendly strategy, verify no consecutive periods for faculty with avoidConsecutive
     - Tag: // Feature: timetable-generator, Property 15: Faculty-Friendly Scheduling
     - **Validates: Requirements 18.3**
 
-- [ ] 21. Implement class timetable view UI
-  - [ ] 21.1 Create activity_class_timetable.xml layout
+- [x] 21. Implement class timetable view UI
+  - [x] 21.1 Create activity_class_timetable.xml layout
     - Add Spinner to select class section
     - Add Spinner to select timetable variant
     - Add RecyclerView with GridLayoutManager for timetable grid
     - Add navigation buttons to other views (Faculty, Subject Distribution)
     - _Requirements: 8.1, 8.5, 17.1, 17.4_
   
-  - [ ] 21.2 Create timetable_cell.xml layout
+  - [x] 21.2 Create timetable_cell.xml layout
     - Add TextViews for subject name, faculty name, room
     - Add visual indicator for locked cells
     - Add visual indicator for break periods
     - _Requirements: 8.2, 8.3, 8.4, 11.2_
   
-  - [ ] 21.3 Create TimetableGridAdapter.java
+  - [x] 21.3 Create TimetableGridAdapter.java
     - Extend RecyclerView.Adapter
     - Calculate day and period from position
     - Display assignment details in each cell
@@ -552,7 +552,7 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Handle cell click events for editing
     - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.6, 17.4_
   
-  - [ ] 21.4 Create ClassTimetableActivity.java
+  - [x] 21.4 Create ClassTimetableActivity.java
     - Initialize TimetableViewModel
     - Set up RecyclerView with GridLayoutManager
     - Observe currentTimetable LiveData
@@ -561,20 +561,20 @@ The implementation uses Java for Android and includes both unit tests and proper
     - Navigate to EditTimetableActivity for manual editing
     - _Requirements: 8.1, 8.5, 8.6, 15.1_
 
-- [ ] 22. Implement faculty timetable view UI
-  - [ ] 22.1 Create activity_faculty_timetable.xml layout
+- [x] 22. Implement faculty timetable view UI
+  - [x] 22.1 Create activity_faculty_timetable.xml layout
     - Add Spinner to select faculty member
     - Add RecyclerView with GridLayoutManager for faculty schedule
     - Add TextView for daily workload summary
     - _Requirements: 9.1, 9.3, 17.1, 17.4_
   
-  - [ ] 22.2 Create FacultyTimetableAdapter.java
+  - [x] 22.2 Create FacultyTimetableAdapter.java
     - Display class, section, subject, room for each assigned period
     - Show "Free" for unassigned periods
     - Calculate and display daily workload
     - _Requirements: 9.2, 9.3, 9.4, 17.4_
   
-  - [ ] 22.3 Create FacultyTimetableActivity.java
+  - [x] 22.3 Create FacultyTimetableActivity.java
     - Initialize TimetableViewModel
     - Set up RecyclerView with GridLayoutManager
     - Observe currentTimetable LiveData
@@ -583,24 +583,24 @@ The implementation uses Java for Android and includes both unit tests and proper
     - _Requirements: 9.1, 9.2, 9.3, 9.4, 15.1_
 
 
-- [ ] 23. Implement subject distribution view UI
-  - [ ] 23.1 Create activity_subject_distribution.xml layout
+- [x] 23. Implement subject distribution view UI
+  - [x] 23.1 Create activity_subject_distribution.xml layout
     - Add RecyclerView for subject list
     - _Requirements: 10.1, 17.1, 17.3_
   
-  - [ ] 23.2 Create item_subject_distribution.xml layout
+  - [x] 23.2 Create item_subject_distribution.xml layout
     - Add TextViews for subject name, required periods, assigned periods
     - Add RecyclerView for assigned slot details
     - Add visual indicator for discrepancies
     - _Requirements: 10.2, 10.3, 10.4, 17.2_
   
-  - [ ] 23.3 Create SubjectDistributionAdapter.java
+  - [x] 23.3 Create SubjectDistributionAdapter.java
     - Display subject name and period counts
     - Display all assigned slots with day, period, class, faculty
     - Highlight discrepancies when assigned ≠ required
     - _Requirements: 10.1, 10.2, 10.3, 10.4, 17.3_
   
-  - [ ] 23.4 Create SubjectDistributionActivity.java
+  - [x] 23.4 Create SubjectDistributionActivity.java
     - Initialize TimetableViewModel
     - Set up RecyclerView with SubjectDistributionAdapter
     - Observe currentTimetable LiveData
@@ -608,19 +608,19 @@ The implementation uses Java for Android and includes both unit tests and proper
     - _Requirements: 10.1, 10.2, 10.3, 10.4, 15.1_
 
 - [ ] 24. Write property tests for display and rendering
-  - [ ]* 24.1 Write property test for Cell Rendering Completeness
+  - [ ] 24.1 Write property test for Cell Rendering Completeness
     - **Property 18: Cell Rendering Completeness**
     - Generate random timetables, verify rendered cells include subject, faculty, and room names
     - Tag: // Feature: timetable-generator, Property 18: Cell Rendering Completeness
     - **Validates: Requirements 8.2**
   
-  - [ ]* 24.2 Write property test for Faculty Schedule Rendering
+  - [ ] 24.2 Write property test for Faculty Schedule Rendering
     - **Property 19: Faculty Schedule Rendering**
     - Generate random faculty schedules, verify rendered display includes class, section, subject, room
     - Tag: // Feature: timetable-generator, Property 19: Faculty Schedule Rendering
     - **Validates: Requirements 9.2**
   
-  - [ ]* 24.3 Write property test for Faculty Workload Calculation
+  - [ ] 24.3 Write property test for Faculty Workload Calculation
     - **Property 20: Faculty Workload Calculation**
     - Generate random faculty schedules, verify workload calculation equals period count
     - Tag: // Feature: timetable-generator, Property 20: Faculty Workload Calculation

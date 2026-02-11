@@ -29,4 +29,63 @@
     <string name="delete_subject">Delete Subject</string>
     <string name="no_subjects_message">No subjects added yet. Tap + to add a subject.</string>
     <string name="validation_error_no_subjects">Please add at least one subject before proceeding</string>
+    
+    <!-- Faculty Input -->
+    <string name="faculty_input_title">Add Faculty</string>
+    <string name="faculty_input_instruction">Add all faculty members who will teach</string>
+    <string name="add_faculty">Add Faculty</string>
+    <string name="add_faculty_title">Add Faculty</string>
+    <string name="edit_faculty_title">Edit Faculty</string>
+    <string name="faculty_name_hint">Faculty Name</string>
+    <string name="max_periods_per_day_hint">Max Periods Per Day (1-12)</string>
+    <string name="subjects_label">Subjects (select at least one)</string>
+    <string name="subjects_hint">Select subjects this faculty can teach</string>
+    <string name="availability_label">Day-wise Availability</string>
+    <string name="availability_hint">Select available periods for each day</string>
+    <string name="avoid_consecutive_label">Avoid consecutive periods</string>
+    <string name="edit_faculty">Edit Faculty</string>
+    <string name="delete_faculty">Delete Faculty</string>
+    <string name="no_faculties_message">No faculty added yet. Tap + to add a faculty member.</string>
+    <string name="validation_error_no_faculties">Please add at least one faculty member before proceeding</string>
+    <string name="select_all_periods">Select All</string>
+    <string name="clear_all_periods">Clear All</string>
+    
+    <!-- Room Input -->
+    <string name="room_input_title">Add Rooms</string>
+    <string name="room_input_instruction">Add all rooms and labs available for scheduling</string>
+    <string name="add_room">Add Room</string>
+    <string name="add_room_title">Add Room</string>
+    <string name="edit_room_title">Edit Room</string>
+    <string name="room_name_hint">Room Name</string>
+    <string name="room_type_label">Room Type</string>
+    <string name="room_availability_label">Room Availability</string>
+    <string name="room_availability_instruction">Check the periods when this room is available</string>
+    <string name="edit_room">Edit Room</string>
+    <string name="delete_room">Delete Room</string>
+    <string name="no_rooms_message">No rooms added yet. Tap + to add a room.</string>
+    
+    <!-- Class Input -->
+    <string name="class_input_title">Add Classes and Sections</string>
+    <string name="class_input_instruction">Add all classes and sections that need timetables</string>
+    <string name="add_class">Add Class</string>
+    <string name="add_class_title">Add Class Section</string>
+    <string name="edit_class_title">Edit Class Section</string>
+    <string name="class_name_hint">Class Name (e.g., Grade 10, CSE-A)</string>
+    <string name="section_name_hint">Section Name (e.g., A, B, Morning)</string>
+    <string name="student_strength_hint">Student Strength</string>
+    <string name="edit_class">Edit Class</string>
+    <string name="delete_class">Delete Class</string>
+    <string name="no_classes_message">No classes added yet. Tap + to add a class section.</string>
+    <string name="validation_error_no_classes">Please add at least one class section before proceeding</string>
+    <string name="generate_timetable_button">Generate Timetable</string>
+    
+    <!-- Generation Activity -->
+    <string name="generation_title">Generate Timetable</string>
+    <string name="generation_instruction">Generate multiple timetable variants optimized for different goals</string>
+    <string name="generate_button">Generate Timetables</string>
+    <string name="generating_message">Generating timetables, please wait…</string>
+    <string name="variants_label">Generated Variants</string>
+    <string name="view_variant_button">View</string>
+    <string name="conflict_dialog_title">Generation Failed</string>
+    <string name="conflict_dialog_ok">OK</string>
 </resources>
